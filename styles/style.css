@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+header img {
+  width: 100px;
+  margin-left: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: #252a34;
+  font-weight: 500;
+  font-size: 16px;
+}
+header nav a:hover {
+  color: #940000;
+  transition: all 0.5s;
+}
+header #nav-left a {
+  padding: 0 20px;
+  border-right: 1px solid gray;
+}
+header #nav-left a:last-child {
+  border-right: none;
+}
+header #nav-right {
+  gap: 30px;
+  font-size: 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background: linear-gradient(rgb(205, 205, 205) 40%, #eaeaea 40%);
+}
+.hero .slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 500px;
+}
+.hero .slogan h1 {
+  font-size: 40px;
+}
+.hero .slogan h1 span {
+  font-family: "Times New Roman", Times, serif;
+}
+.hero .slogan img {
+  width: 300px;
+}
+.hero .slogan button:hover {
+  background-color: #f7050d;
+  transition: all ease-in-out 0.2s;
+}
+.hero .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.hero .images-banner {
+  max-width: 800px;
+}
+.hero .images-track {
+  max-width: 400px;
+}
+.hero .images p {
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero .slogan button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #d72323;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero .slogan h1, .hero .slogan h2 {
+  font-family: "Inter";
+  color: #252a34;
+}
+
+.hero .slogan p {
+  color: #37393c;
+  font-size: 17px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora";
+  background-color: #eaeaea;
+}/*# sourceMappingURL=style.css.map */

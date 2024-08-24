@@ -1,0 +1,65 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background: linear-gradient(rgb(205, 205, 205)40%, $bg-color 40%);
+
+    .slogan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        max-width: 500px;
+
+        h1 {
+            @extend %heading;
+            font-size: 40px;
+
+            span {
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+        p {
+            @extend %p;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        h2 {
+            @extend %heading;
+        }
+
+        button {
+            @extend %button;
+
+            &:hover {
+                background-color: #f7050d;
+                transition: all ease-in-out 0.2s;
+            }
+        }
+    }
+
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        &-banner {
+            max-width: 800px;
+        }
+
+        &-track {
+            max-width: 400px;
+        }
+
+        p {
+            max-width: 500px;
+            text-align: center;
+        }
+    }
+}

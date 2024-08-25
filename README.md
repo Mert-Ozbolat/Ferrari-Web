@@ -10,5 +10,5 @@ This project is a web page that reflects the modern and sleek design of Ferrari.
 - **Fast and Optimized Code:** A fast-loading page structure.
 
 # 🏁Preview
-![](./Ferrari.gif);
+![](./Ferrari.gif)
 
